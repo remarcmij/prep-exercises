@@ -1,9 +1,5 @@
 'use strict';
 
-function throwDie() {
-  // TODO Return a random integer between 1 and 6.
-}
-
 function runExperiment(sampleSize) {
   const valueCounts = [0, 0, 0, 0, 0, 0];
 
