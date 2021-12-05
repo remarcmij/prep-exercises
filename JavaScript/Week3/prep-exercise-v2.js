@@ -24,7 +24,7 @@ function runExperiment(sampleSize) {
   // loop. In each loop iteration:
   // 1. For each possible value of the die (1-6), compute the percentage of how
   //    many times that value was thrown. Remember that the first value of
-  //    `valueCount` represent the die value of 1, etc.
+  //    `valueCounts` represent the die value of 1, etc.
   // 2. Convert the computed percentage to a number string with a precision of
   //    two decimals, e.g. '14.60'.
   // 3. Then push that string onto the `results` array.
