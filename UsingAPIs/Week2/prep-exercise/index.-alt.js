@@ -27,7 +27,8 @@ function renderResults(pokemons) {
   // 1. Clear the text content of the HTML element with id `error`.
   // 2. Set the text content of the HTML element with id `json` to JSON text
   //    from the `pokemons` argument, formatted in a human readable form (i.e.,
-  //    with indentation and line breaks).
+  //    with indentation and line breaks). (Hint: consider using
+  //    `JSON.stringify()`)
 }
 
 function renderError(err) {
